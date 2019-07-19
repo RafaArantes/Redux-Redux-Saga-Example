@@ -1,0 +1,71 @@
+.todo__card{
+  max-width: 460px;
+  width: 100%;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 35px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0); 
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  display: flex;
+  background-color: rgba(255,255,255,0.05);
+}
+.todo__card:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transform: translate(15px);
+  background-color: rgba(255,255,255, 0.1)
+}
+.todo__title{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Poppins;
+ }
+.todo__button-wrapper{
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.todo__delete, .todo__edit{
+  height: 30px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #2558f0;
+}
+
+.todo__input-edit{
+  height: 35px;
+  background-color: rgba(255,255,255,0);
+  width: 90%;
+  color: #efefef;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border: solid 2px #2558f0;
+  font-family: Poppins;
+  display: block;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+
+.todo_edit-button{
+  height: 35px;
+  width: 80px;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Poppins;
+  display: block;
+  border-radius: 0px 2px 2px 0px;
+  font-weight: 500;
+  margin: 20px auto;
+  background-color: #2558f0; 
+
+}
